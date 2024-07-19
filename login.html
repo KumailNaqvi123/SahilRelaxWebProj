@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Relax - Login</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/login.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div class="container_wrap">
+                <div class="container">
+                    <div class="logo"></div>
+                  <div class="main_text">
+                    <h2>Please Enter Your Email to start your Journey!</h2>
+                    <p style="font: size 10px;">
+                        <form name="login">
+                            If you are a returning user, enter your email address to start where you left off!<br></br>
+                            <input type="text" size="50" name="userid"/><br></br>
+                        Confirm Email<br></br><input type="text" size="50" name="pswrd"/><br></br>
+
+                        <input type="button" onclick="ValidateEmail(this.form);check(this.form)" value="Login"/>
+
+                        </form>
+
+            <script language="javascript">
+              function check(form)
+              {
+              if(form.userid.value == "abc123@gmail.com" && form.pswrd.value == "abc123@gmail.com")
+                {
+                   window.open('mainpage.html')
+                }
+              else
+                {
+                  alert("Incorrect, Try again")
+                }
+              }
+						</script>
+
+            <script>
+              function ValidateEmail(form) 
+              {
+              if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(form.userid.value && form.pswrd.value))
+              {
+               return (true)
+              }
+              alert("You have entered an invalid email address!")
+              return (false)
+}
+
+            </script>
+                      
+                      </form>
+                    </div> 
+                    </div> 
+        </div> 
+        </div> 
+    	<footer>
+        <div class="f1">
+        <a href="http://www.sahil.org/" target="_blank"><img src="image/logo_sahil_black.png" height="60" style="margin-top:5px;" /></a>
+        <p>
+        We respect your privacy<br />
+		Any information that you enter on this website is for your own use only.<br />
+		Your personally identifiable information will not be accessed by any party.
+        </p>
+        <a href="http://www.whitericecom.com/" target="_blank"><img src="image/logo_wrc_black.png" height="44" /></a>
+        <div class="social"> <a href="index.php"><img src="image/icon_home.png" /></a>
+        <img src="image/icon_tw.png" />
+        <img src="image/icon_fb.png" />
+        </div>
+        </div>
+        </footer>
+</body>
+</html>
+
+

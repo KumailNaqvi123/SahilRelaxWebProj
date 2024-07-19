@@ -1,0 +1,183 @@
+#main .container
+{
+	margin-left:30px !important;
+}
+#main .container .what_is_relax
+{
+	width:120px;
+	height:124px;
+	background:#b3a8a8;
+	top: -17vw;
+	left: 12.5vw;
+	background-image:url(../image/bubble_what_is_relax_bg.png);
+	background-repeat:no-repeat;
+	background-position:-10px;
+	position: absolute;	
+}
+#main .container .what_is_relax p
+{
+	padding-top:.8em;
+	font-size:1.8em;
+}
+#main .container .what_is_relax a
+{
+	text-decoration:none;
+}
+#main .container .stress_and_teen
+{
+	width:136px;
+	height:137px;
+	background:#a8bd3a;
+	top: -10vw;
+	left: 20vw;
+
+	background-image:url(../image/bubble_stress_and_teen_bg.png);
+	background-repeat:no-repeat;
+	position: absolute;	
+	background-position:0px 2px;
+}
+#main .container .stress_and_teen p
+{
+	padding-top:0.8em;
+	font-size:1.8em;
+}
+#main .container .stress_and_teen a
+{
+	text-decoration:none;
+}
+#main .container .bubble_green
+{
+	margin-left:700px;
+	height:20px;
+}
+#main .container .bubble_orange
+{
+	margin-left:70px;
+	height:37px;	
+}
+#main .container .how_to_use_relax
+{
+	width:132px;
+	height:133px;
+	position: absolute;	
+	left: 10%;
+	top: -11vw;
+	background:#fe6c17;
+	background-image:url(../image/bubble_how_to_use_relax_bg.png);
+	background-repeat:no-repeat;
+	background-position:0px 2px;
+}
+#main .container .how_to_use_relax p
+{
+	padding-top:1em;
+	font-size:1.5em;
+}
+#main .container .how_to_use_relax a
+{
+	text-decoration:none;
+}
+#main .container .logo
+{
+	width:252px;
+	height:142px;
+	background-image:url(../image/logo.png);
+	background-repeat:no-repeat;
+	background-position:0px 2px;
+}
+
+#main .container .play_self_assesment p
+{
+	padding-top:0.5em;
+	font-size:2.8em;
+}
+#main .container .play_self_assesment a
+{
+	text-decoration:none;
+}
+/* Slideshow style rules. */
+#slideshow {
+	margin:0 auto;
+	width:640px;
+	min-height:263px;
+	position:relative;
+}
+#slideshow #slidesContainer {
+  margin:0 auto;
+  width:560px;
+  min-height:263px;
+  overflow:auto; /* allow scrollbar */
+  position:relative;
+}
+#slideshow #slidesContainer .slide {
+  margin:0 auto;
+  width:540px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
+  min-height:263px;
+}
+
+/* Slideshow controls style rules. */
+.control {
+  display:block;
+  width:39px;
+  height:22px;
+  text-indent:-10000px;
+  position:absolute;
+  cursor: pointer;
+}
+#leftControl {
+  top:30%;
+  left:-15%;
+  background:transparent url(../image/arrow_left.png) no-repeat 0 0;
+}
+#rightControl {
+  top:30%;
+  right:-15%;
+  background:transparent url(../image/arrow_right.png) no-repeat 0 0;
+}
+.slide p {
+  font-family:"KhmerUI 0";
+  color:#5e5e5d;
+  font-size:1em;
+  margin-top:-20px;float:left;
+}
+.slide h2 {
+  font-family:"KABELN_0";
+  color:#A8BD3A;
+  font-size:2.4em;
+  margin-bottom:60px;
+}
+.slide img {
+  float:left;
+  margin:40px 10px 5px 15px;
+}
+.upper_section{
+	display: grid;
+	width: 34vw;
+	grid-template-columns: 1fr 1.5fr;
+	justify-content: center;
+	align-items: flex-end;
+	gap: 20px;
+	height: 35vh;
+}
+.upper_section > :nth-child(2){
+	position: relative;
+	width: 220px;
+}
+.container{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.submit {
+	background: url(../image/buttons_submit.png) no-repeat;
+	border: none;
+	cursor: pointer;
+	display: block;
+	height: 40px;
+	text-indent: -3000px;
+	width: 80px;
+	float:left;
+	margin-left:60px;
+}
+.submit:hover {
+	background: url(../image/buttons_submit.png) no-repeat;
+}

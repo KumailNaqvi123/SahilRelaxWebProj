@@ -1,0 +1,80 @@
+body
+{
+	margin:0;
+	padding:0;
+	background:#9da9a4;
+}
+#main
+{
+	width:100%;
+	background:#f9fcf6;
+	margin-bottom:0px;
+	min-height:667px;
+}
+
+
+#main .container
+{
+	padding-top:50px;
+}
+#main .container .circle
+{
+	border-radius: 999px;
+}
+#main .container .circle p
+{
+	text-align:center;
+	font-size:22px !important;;
+	color:#000;
+}
+footer
+{
+	width:100%;
+	min-height:100px;
+}
+footer .f1
+{
+	/*padding-top:200px;*/
+	color:#000000;
+	margin:0 auto;
+	width:900px;
+	padding-left:120px;
+}
+footer .f1 p
+{
+	font-size:12px;
+	font-family:"KhmerUI 0";
+    text-align:left;
+	float:left;
+	opacity:1;
+	margin-left:5px;
+	margin-right:25px;
+	margin-top:15px;
+}
+footer .f1 a img
+{
+	border:0px;
+}
+footer .f1 img
+{
+	margin-top:20px;
+	margin-right:20px;
+	float:left;
+}
+footer .f1 .social img
+{
+	height:35px;
+	margin-top:30px;
+}
+#main .container .bubble_green
+{
+	margin-left:680px;
+	margin-top:-50px;	
+	visibility:hidden !important;
+}
+#main .container .bubble_orange
+{
+	margin-left:170px;
+	margin-top:-90px;	
+	visibility:hidden !important;
+}

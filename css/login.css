@@ -1,0 +1,29 @@
+@charset "utf-8";
+#main .container .logo
+{
+	width:252px;
+	height:142px;
+	background-image:url(../image/logo.png);
+	background-repeat:no-repeat;
+	background-position:0px 2px;
+	margin-left:35%;
+	margin-bottom:0px;	
+}
+.main_text {
+	width:500px;
+	min-height:400px;
+	margin:0 auto;
+	margin-left:27%;
+}
+.main_text h2 {
+  font-family:"KABELN_0";
+  color:#a3238e;
+  font-size:45px;
+}
+.main_text p {
+  font-family:"KhmerUI 0";
+  color:#5e5e5d;
+  font-size:16px;
+}
+
+
