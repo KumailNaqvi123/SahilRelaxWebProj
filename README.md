@@ -1,5 +1,5 @@
 # WebProject
-A clone of Sahil relax for 6th semester project using a simple Web stack.It is a basic web application featuring user authentication and informational pages. Built with a stack comprising:
+A clone of Sahil relax for using a simple Web stack.It is a basic web application featuring user authentication and informational pages. Built with a stack comprising:
 
 # Stack
  -HTML (53.0%): Structure and content of the web pages<br>
